@@ -1,6 +1,15 @@
 {
-  "originHash" : "89556649a269e92b1e32948f85806a3b473231d34e5f330f1b9909d8412412df",
+  "originHash" : "4e4c4e9f13b1b628cb73986fd582c3a42dead8f0382351b7d56668b76e24bedc",
   "pins" : [
+    {
+      "identity" : "csqlite",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sudhyk/CSQLite",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1097dd0cdef3635d5d1f1de1f97bb7a03de3f9f2"
+      }
+    },
     {
       "identity" : "flyingfox",
       "kind" : "remoteSourceControl",
@@ -8,6 +17,15 @@
       "state" : {
         "revision" : "76b2d2d0eb54f0b53e8b661cc8007c487d94f8da",
         "version" : "0.25.0"
+      }
+    },
+    {
+      "identity" : "sqlite.swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sudhyk/SQLite.swift",
+      "state" : {
+        "branch" : "master",
+        "revision" : "1881c1ad2be42f6414ccaf61b6a7afc84053b779"
       }
     }
   ],

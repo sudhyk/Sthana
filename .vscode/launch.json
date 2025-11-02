@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Sthana}",
+            "name": "Debug Sthana",
+            "program": "${workspaceFolder:Sthana}/.build/debug/Sthana",
+            "preLaunchTask": "swift: Build Debug Sthana"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Sthana}",
+            "name": "Release Sthana",
+            "program": "${workspaceFolder:Sthana}/.build/release/Sthana",
+            "preLaunchTask": "swift: Build Release Sthana"
+        }
+    ]
+}

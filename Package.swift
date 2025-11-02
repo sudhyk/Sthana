@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "Sthana",
     dependencies: [
-        .package(url: "https://github.com/swhitty/FlyingFox.git", .upToNextMajor(from: "0.25.0"))
+        .package(url: "https://github.com/swhitty/FlyingFox.git", .upToNextMajor(from: "0.25.0")),
+        .package(url: "https://github.com/sudhyk/SQLite.swift", branch: "master")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -14,8 +15,9 @@ let package = Package(
         .executableTarget(
             name: "Sthana",
             dependencies: [
-                .product(name: "FlyingFox", package: "FlyingFox")
-            ]
+                .product(name: "FlyingFox", package: "FlyingFox"),
+                .product(name: "SQLite", package: "SQLite.swift")
+         ]
         ),
     ],
 )
